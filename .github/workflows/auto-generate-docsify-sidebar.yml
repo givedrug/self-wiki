@@ -1,0 +1,35 @@
+name: auto-generate-docsify-sidebar
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  main-to-gh-pages:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout main
+        uses: actions/checkout@v2
+        with:
+          ref: main
+
+      - name: generate _sidebar.md
+        run: |
+          bash ./docs/sidebar.sh
+
+      - name: push _sidebar.md to branch gh-pages
+        env:
+          TOKEN: ${{ secrets.TOKEN }}
+          REF: github.com/${{github.repository}}
+          MYEMAIL: givedrug@outlook.com
+          MYNAME: ${{github.repository_owner}}
+        run: |
+          cd docs
+          git config --global user.email "${MYEMAIL}"
+          git config --global user.name "${MYNAME}"
+          git init
+          git remote add origin https://${REF}
+          git add . 
+          git commit -m "Updated By Github Actions With Build ${{github.run_number}} of ${{github.workflow}} For Github Pages"
+          git push --force --quiet "https://${TOKEN}@${REF}" main:gh-pages
