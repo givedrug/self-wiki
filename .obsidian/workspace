@@ -1,0 +1,117 @@
+{
+  "main": {
+    "id": "f03072256f6d7e90",
+    "type": "split",
+    "children": [
+      {
+        "id": "6f6db4e9802b56ea",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5dc66198ae2c980e",
+    "type": "split",
+    "children": [
+      {
+        "id": "f4ad4a6b810d76b7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "50dbef4447f15bed",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "01a34c1968f42af0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 315
+  },
+  "right": {
+    "id": "ab54d305bc175746",
+    "type": "split",
+    "children": [
+      {
+        "id": "e6f1e32391338b7f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "804b308540c0f926",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a311b3548ceb8b51",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "7f2ce1f92c72990f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 240.5
+  },
+  "active": "6f6db4e9802b56ea",
+  "lastOpenFiles": [
+    "README.md",
+    "#代码片段/mybatis/RESTful API与mybatis注解方式完整示例.md",
+    "#代码片段/java/switch语句.md",
+    "index.md",
+    "#代码片段/spring/将spring默认json转换器替换为gson.md",
+    "设计模式/测试一下.md",
+    "设计模式/assets/测试一下/image-20220418162810204.png",
+    "#代码片段/java/未命名.md",
+    "设计模式/UML.md",
+    "设计模式/attachments/uu.png"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "legacyEditor": false,
+  "livePreview": true,
+  "vimMode": false,
+  "attachmentFolderPath": "./assets/switch语句",
+  "alwaysUpdateLinks": true,
+  "promptDelete": true,
+  "defaultViewMode": "preview",
+  "showUnsupportedFiles": true,
+  "strictLineBreaks": true,
+  "showLineNumber": true,
+  "showFrontmatter": false,
+  "newFileLocation": "current",
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true
+}

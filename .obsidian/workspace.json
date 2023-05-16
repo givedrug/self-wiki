@@ -1,0 +1,175 @@
+{
+  "main": {
+    "id": "f03072256f6d7e90",
+    "type": "split",
+    "children": [
+      {
+        "id": "8972de5b146d8605",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "853f84763a02eb03",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5dc66198ae2c980e",
+    "type": "split",
+    "children": [
+      {
+        "id": "f4ad4a6b810d76b7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "50dbef4447f15bed",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "01a34c1968f42af0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f75d5b5987bfcaaf",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 326.5
+  },
+  "right": {
+    "id": "ab54d305bc175746",
+    "type": "split",
+    "children": [
+      {
+        "id": "e6f1e32391338b7f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "804b308540c0f926",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a311b3548ceb8b51",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "7f2ce1f92c72990f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "canvas:新建白板": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "command-palette:打开命令面板": false,
+      "random-note:开始漫游笔记": false
+    }
+  },
+  "active": "853f84763a02eb03",
+  "lastOpenFiles": [
+    "template/aaa.md",
+    "conflict-files-obsidian-git.md",
+    "docs/09后端/README.md",
+    "docs/09后端",
+    "docs/08前端/README.md",
+    "docs/08前端",
+    "docs/07系统设计/代码分层设计.md",
+    "docs/07系统设计",
+    "docs/06数据库/README.md",
+    "docs/06数据库",
+    "docs/05网络/README.md",
+    "docs/05网络",
+    "docs/04Linux系统/README.md",
+    "docs/04Linux系统",
+    "docs/03编程语言/3-1Java/README.md",
+    "docs/03编程语言/3-1Java",
+    "docs/03编程语言",
+    "docs/02设计模式/assets/UML类图中的关系/image-20230228113838354.png",
+    "docs/02设计模式/assets/UML类图中的关系/image-20230228110235486.png",
+    "docs/02设计模式/assets/UML类图中的关系/image-20230228110220463.png",
+    "docs/02设计模式/assets/UML类图中的关系/image-20230228110200222.png",
+    "docs/02设计模式/assets/UML类图中的关系/image-20230228110143634.png",
+    "docs/02设计模式/assets/UML类图中的关系/image-20230228110030449.png",
+    "docs/02设计模式/assets/UML类图中的关系/image-20230227172942888.png",
+    "docs/02设计模式/assets/UML类图中的关系",
+    "docs/02设计模式/设计模式概述.md",
+    "docs/02设计模式/设计模式六大原则.md",
+    "docs/02设计模式/assets",
+    "docs/02设计模式/UML类图中的关系.md",
+    "docs/01算法/README.md",
+    "docs/11常用软件/README.md",
+    "docs/10测试与运维/README.md",
+    "docs/9后端/README.md",
+    "docs/8前端/README.md",
+    "docs/7系统设计/README.md",
+    "docs/6数据库/README.md",
+    "docs/5计算机网络/README.md",
+    "docs/4Linux系统/README.md",
+    "docs/3编程语言/3-1Java/README.md",
+    "docs/2设计模式/README.md",
+    "docs/1数据结构与算法/README.md",
+    "docs/0数学基础/README.md",
+    "docs/!源码学习/README.md"
+  ]
+}
