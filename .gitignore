@@ -56,3 +56,6 @@ Temporary Items
 # myself config
 .idea/
 .trash/
+
+# obsidian config file
+.obsidian/workspace.json
