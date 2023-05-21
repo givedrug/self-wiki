@@ -1,6 +1,8 @@
 div[data-path*="index.html"],
 div[data-path*="sidebar.sh"],
+div[data-path*="first-title.sh"],
 div[data-path*="LICENSE"],
+div[data-path*="src"],
 div[data-path*="assets"],
 div[data-path*="assets"] + div.nav-folder-children
 {
