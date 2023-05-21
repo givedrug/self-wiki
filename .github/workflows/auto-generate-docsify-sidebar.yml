@@ -27,6 +27,7 @@ jobs:
           cd docs_copy
           git config --global user.email "${MYEMAIL}"
           git config --global user.name "${MYNAME}"
+          git config --global init.defaultBranch main
           git init
           git remote add origin https://${REF}
           git add . 
