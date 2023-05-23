@@ -14,6 +14,11 @@ jobs:
         with:
           ref: main
 
+      - name: setup python 3.7
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.7
+
       - name: push _sidebar.md to branch gh-pages
         env:
           TOKEN: ${{ secrets.TOKEN }}
@@ -22,8 +27,7 @@ jobs:
           MYNAME: ${{github.repository_owner}}
         run: |
           cp -r docs docs_copy
-          bash ./docs_copy/sidebar.sh
-          bash ./docs_copy/first-title.sh
+          python ./docs_copy/docsify.py
           cd docs_copy
           git config --global user.email "${MYEMAIL}"
           git config --global user.name "${MYNAME}"
