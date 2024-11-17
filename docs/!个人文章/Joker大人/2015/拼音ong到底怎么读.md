@@ -54,3 +54,7 @@ u开头的韵母被称作「合口呼韵母」其中包括ua,uo,uai,uei,uan…�
 11. 普通话韵母「eng」和「ong」在部分汉字中有什么区别？[http://www.zhihu.com/question/19639019](http://www.zhihu.com/question/19639019)
 
 2015-09-03
+
+后记：
+
+其实除了ong的发音之外，还疑惑过“二”和“耳”的发音为什么不同但是用的是一个拼写方式。
