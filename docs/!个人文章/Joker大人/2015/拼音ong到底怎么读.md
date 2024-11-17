@@ -40,6 +40,7 @@ u开头的韵母被称作「合口呼韵母」其中包括ua,uo,uai,uei,uan…�
 可见「ong」和「ueng」的纠缠是有悠久历史的，语言的变化就是这么反复无常，说不准哪天搞混的人多了，什么方案不方案，才不管你那套，“读错”的人多了，自然就是对的了，哈哈。
 
 **参考链接：**
+
 1.   普通话拼音发音[http://www.pthxx.com/b_audio/08_pinyinfayin/](http://www.pthxx.com/b_audio/08_pinyinfayin/)
 2.   汉语拼音发音[http://www.pep.com.cn/xiaoyu/jiaoshi/tbjx/sheji_1/py/](http://www.pep.com.cn/xiaoyu/jiaoshi/tbjx/sheji_1/py/)
 3.   维基百科：汉语拼音 [https://zh.wikipedia.org/wiki/%E6%B1%89%E8%AF%AD%E6%8B%BC%E9%9F%B3](https://zh.wikipedia.org/wiki/%E6%B1%89%E8%AF%AD%E6%8B%BC%E9%9F%B3)
