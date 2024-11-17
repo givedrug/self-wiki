@@ -42,15 +42,25 @@ u开头的韵母被称作「合口呼韵母」其中包括ua,uo,uai,uei,uan…�
 **参考链接：**
 
 1.   普通话拼音发音[http://www.pthxx.com/b_audio/08_pinyinfayin/](http://www.pthxx.com/b_audio/08_pinyinfayin/)
+
 2.   汉语拼音发音[http://www.pep.com.cn/xiaoyu/jiaoshi/tbjx/sheji_1/py/](http://www.pep.com.cn/xiaoyu/jiaoshi/tbjx/sheji_1/py/)
+
 3.   维基百科：汉语拼音 [https://zh.wikipedia.org/wiki/%E6%B1%89%E8%AF%AD%E6%8B%BC%E9%9F%B3](https://zh.wikipedia.org/wiki/%E6%B1%89%E8%AF%AD%E6%8B%BC%E9%9F%B3)
+
 4.   百度百科：粤语拼音[http://baike.baidu.com/view/197269.htm](http://baike.baidu.com/view/197269.htm)
+
 5.   百度百科：汉语拼音方案[http://baike.baidu.com/link?url=uyYQFV1ex_oQAWQ480GaWMe-TE2E0kaqYy8j4aTX6Aanf8-3OA70Pzt0ogRX_UGZ44ZjXRPtzC1WocMzzNLBiq](http://baike.baidu.com/link?url=uyYQFV1ex_oQAWQ480GaWMe-TE2E0kaqYy8j4aTX6Aanf8-3OA70Pzt0ogRX_UGZ44ZjXRPtzC1WocMzzNLBiq)
+
 6.   鼻韵母[http://www.360doc.com/content/08/1226/19/39024_2204590.shtml](http://www.360doc.com/content/08/1226/19/39024_2204590.shtml)
+
 7.   潮阳话[http://baike.baidu.com/link?url=t1N50J37QoerflhtilWoHxQc7aIFcEaHp9jXVp1GuJXFelQLrW4_mpTSSFutZz0rLwlhZDD9W69Wjt8BCKRqpK](http://baike.baidu.com/link?url=t1N50J37QoerflhtilWoHxQc7aIFcEaHp9jXVp1GuJXFelQLrW4_mpTSSFutZz0rLwlhZDD9W69Wjt8BCKRqpK)
+
 8.   合口呼韵母[http://baike.baidu.com/link?url=SuypeRg2R3GSa1AqNZB_O4sRWZbVxBSmqFz-Bp0gHm7md-QSDuj7EwFtirYNsom7JbIh12hZyGNXz3YnFfPuma](http://baike.baidu.com/link?url=SuypeRg2R3GSa1AqNZB_O4sRWZbVxBSmqFz-Bp0gHm7md-QSDuj7EwFtirYNsom7JbIh12hZyGNXz3YnFfPuma)
+
 9.   [音频] 汉语拼音全部组合的四个声调发音MP3 [http://www.ebama.net/thread-111634-1-1.html](http://www.ebama.net/thread-111634-1-1.html)
+
 10. 后鼻韵母 ang ung eng ing ong éng êng [http://www.yueyuge.cn/html/2013/fayin_1228/55.html](http://www.yueyuge.cn/html/2013/fayin_1228/55.html)
+
 11. 普通话韵母「eng」和「ong」在部分汉字中有什么区别？[http://www.zhihu.com/question/19639019](http://www.zhihu.com/question/19639019)
 
 2015-09-03
