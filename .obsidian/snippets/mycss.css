@@ -6,3 +6,22 @@ div[data-path*="assets"],
 div[data-path*="assets"] + div.nav-folder-children {
     display: none;
 }
+
+/*列表整体上方与介绍文字间距拉近*/
+.markdown-reading-view ol,
+.markdown-reading-view ul {
+    margin-top: -10px;
+}
+
+/*列表项之间间距拉大*/
+.markdown-reading-view ol li,
+.markdown-reading-view ul li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/*列表项最后一个元素间距不调整（优化嵌套的时候）*/
+.markdown-reading-view ol li:last-child,
+.markdown-reading-view ul li:last-child {
+    margin-bottom: 0;
+}
