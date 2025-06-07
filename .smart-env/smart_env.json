@@ -26,7 +26,8 @@
     "muted": {
       "done_initial_scan": true,
       "embedding_progress": true,
-      "embedding_complete": true
+      "embedding_complete": true,
+      "done_import": true
     }
   }
 }
