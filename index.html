@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>self-wiki</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="src/_world.png"/>
+  <link rel="stylesheet" href="src/official/vue.css">
+  <!-- 公式 -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" integrity="sha384-5TcZemv2l/9On385z///+d7MSYlvIEw9FuZTIdZ14vJLqWphw7e7ZPuOiCHJcFCP" crossorigin="anonymous">
+  <script defer src="//cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js" integrity="sha384-cMkvdD8LoxVzGF/RPUKAcvmm49FQ0oxwDF3BGKtDXcEc+T1b2N+teh/OJfpU0jr6" crossorigin="anonymous"></script>
+  <script src="//cdn.jsdelivr.net/npm/marked@9.1.6/marked.min.js"></script>
+<!--  <link rel="stylesheet" href="src/official/katex.min.css" integrity="sha384-5TcZemv2l/9On385z///+d7MSYlvIEw9FuZTIdZ14vJLqWphw7e7ZPuOiCHJcFCP" crossorigin="anonymous">-->
+<!--  <script defer src="src/official/katex.min.js" integrity="sha384-cMkvdD8LoxVzGF/RPUKAcvmm49FQ0oxwDF3BGKtDXcEc+T1b2N+teh/OJfpU0jr6" crossorigin="anonymous"></script>-->
+<!--  <script src="src/official/marked.min.js"></script>-->
+</head>
+<body>
+<div id="app"></div>
+<script>
+  window.$docsify = {
+    name: 'self-wiki',
+    repo: 'https://github.com/givedrug/self-wiki',
+    loadSidebar: true,
+    maxLevel: 4,
+    subMaxLevel: 3,
+    homepage: 'README.md',
+    auto2top: true,
+    // 复制代码
+    copyCode: {
+      buttonText: '复制',
+      errorText: '错误',
+      successText: '已复制到剪切板'
+    },
+    // 全文搜索
+    search: {
+      // 过期时间，单位毫秒，默认一天
+      maxAge: 86400000,
+      placeholder: '搜索',
+      noData: '找不到结果',
+      // 搜索标题的最大程级, 1 - 6
+      depth: 6,
+    },
+    // 字数统计
+    count: {
+      position: 'bottom',
+      language: 'chinese',
+      isExpected: false
+    }
+  }
+</script>
+<!-- 公式 -->
+<script src="src/index.js"></script>
+<!-- Docsify v4 -->
+<script src="src/official/docsify.min.js"></script>
+<!-- Java代码高亮 -->
+<script src="src/official/prism-java.min.js"></script>
+<!-- 复制代码 -->
+<script src="src/official/docsify-copy-code.min.js"></script>
+<!-- 全文搜索 -->
+<script src="src/official/search.min.js"></script>
+<!-- 图片缩放 -->
+<script src="src/official/zoom-image.min.js"></script>
+<!-- 字数统计 -->
+<script src="src/official/countable.min.js"></script>
+</script>
+</body>
+</html>
