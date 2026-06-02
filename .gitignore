@@ -59,3 +59,8 @@ Temporary Items
 
 # obsidian config file
 .obsidian/workspace.json
+
+
+
+# Ignore Smart Environment folder
+.smart-env/
