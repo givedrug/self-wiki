@@ -1,0 +1,9 @@
+{
+  "id": "cn-wordfreq",
+  "name": "中文词频统计",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "统计 Obsidian 笔记的中文词频，支持全局词云与当前笔记词云 + 词频排行榜。基于 segmentit 真分词。",
+  "author": "givedrug",
+  "isDesktopOnly": false
+}

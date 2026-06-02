@@ -1,0 +1,89 @@
+/* ===== cn-wordfreq 插件样式 ===== */
+
+.cn-wf-container {
+  padding: 12px 16px;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.cn-wf-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.cn-wf-title {
+  font-weight: 600;
+  font-size: 1.05em;
+}
+
+.cn-wf-sub {
+  color: var(--text-muted);
+  font-size: 0.85em;
+  margin-bottom: 12px;
+}
+
+.cn-wf-canvas {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto 16px;
+}
+
+/* 排行榜 */
+.cn-wf-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9em;
+}
+
+.cn-wf-table th,
+.cn-wf-table td {
+  padding: 4px 8px;
+  border-bottom: 1px solid var(--background-modifier-border);
+  text-align: left;
+}
+
+.cn-wf-rank {
+  color: var(--text-muted);
+  width: 2.5em;
+}
+
+.cn-wf-count {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.cn-wf-word {
+  position: relative;
+}
+
+.cn-wf-bar {
+  height: 3px;
+  margin-top: 2px;
+  border-radius: 2px;
+  background: var(--interactive-accent);
+  opacity: 0.5;
+}
+
+.cn-wf-clickable {
+  cursor: pointer;
+}
+
+.cn-wf-clickable:hover td {
+  background: var(--background-modifier-hover);
+}
+
+.cn-wf-empty {
+  color: var(--text-muted);
+  text-align: center;
+  padding: 24px 0;
+}
+
+.cn-wf-loading {
+  color: var(--text-muted);
+  text-align: center;
+  padding: 32px 0;
+}
