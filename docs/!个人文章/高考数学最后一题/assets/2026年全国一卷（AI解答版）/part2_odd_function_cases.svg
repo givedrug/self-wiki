@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="650" viewBox="0 0 960 650">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#334155"/>
+    </marker>
+    <filter id="shadow" x="-10%" y="-15%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.08"/>
+    </filter>
+    <style>
+      .bg { fill: #f8fafc; }
+      .panel { fill: #ffffff; stroke: #dbe3ee; stroke-width: 1; filter: url(#shadow); }
+      .chart { fill: #fbfdff; stroke: #e2e8f0; }
+      .title { font: 700 24px "PingFang SC", "Microsoft YaHei", Arial, sans-serif; fill: #0f172a; }
+      .sub { font: 15px "PingFang SC", "Microsoft YaHei", Arial, sans-serif; fill: #64748b; }
+      .axis { stroke: #334155; stroke-width: 2.1; marker-end: url(#arrow); }
+      .grid { stroke: #e5eaf2; stroke-width: 1; }
+      .aux { stroke: #94a3b8; stroke-width: 1.4; stroke-dasharray: 6 6; }
+      .label { font: 700 15px "PingFang SC", "Microsoft YaHei", Arial, sans-serif; fill: #0f172a; }
+      .small { font: 13px "PingFang SC", "Microsoft YaHei", Arial, sans-serif; fill: #64748b; }
+      .tag { font: 700 14px "PingFang SC", "Microsoft YaHei", Arial, sans-serif; }
+    </style>
+  </defs>
+  <rect width="960" height="650" class="bg"/>
+  <rect x="38" y="28" width="884" height="590" rx="8" class="panel"/>
+  <text x="68" y="70" class="title">第（2）问：从函数图像读出 D(a)</text>
+  <text x="68" y="99" class="sub">横轴变量先看成 x=a+d。彩色横轴区域表示 f(x)&gt;f(a)，最后再换回 d=x-a。</text>
+
+  <g transform="translate(78,132)">
+    <rect x="0" y="0" width="804" height="210" rx="8" class="chart"/>
+    <text x="24" y="32" class="label">情形一：a&lt;0</text>
+    <line x1="62" y1="150" x2="742" y2="150" class="axis"/>
+    <line x1="402" y1="188" x2="402" y2="40" class="axis"/>
+    <line x1="62" y1="104" x2="742" y2="104" stroke="#f97316" stroke-width="2.2" stroke-dasharray="8 6"/>
+    <line x1="246" y1="40" x2="246" y2="188" class="aux"/>
+    <line x1="402" y1="40" x2="402" y2="188" class="aux"/>
+    <rect x="246" y="151" width="156" height="15" fill="#dbeafe" opacity="0.95"/>
+    <path d="M70,132 C128,127 190,119 246,104 C306,88 356,66 402,42" fill="none" stroke="#2563eb" stroke-width="4.2" stroke-linecap="round"/>
+    <path d="M402,150 C468,168 560,181 735,191" fill="none" stroke="#e11d48" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="246" cy="104" r="7" fill="#fff" stroke="#f97316" stroke-width="3"/>
+    <circle cx="402" cy="42" r="7" fill="#fff" stroke="#2563eb" stroke-width="3"/>
+    <text x="239" y="190" class="small">a</text>
+    <text x="397" y="190" class="small">0</text>
+    <text x="264" y="96" class="small">f(a)</text>
+    <text x="284" y="172" class="tag" fill="#2563eb">x∈(a,0)</text>
+    <text x="560" y="96" class="small">右侧函数值为负</text>
+  </g>
+
+  <g transform="translate(78,380)">
+    <rect x="0" y="0" width="804" height="210" rx="8" class="chart"/>
+    <text x="24" y="32" class="label">情形二：a&gt;0</text>
+    <line x1="62" y1="115" x2="742" y2="115" class="axis"/>
+    <line x1="402" y1="188" x2="402" y2="40" class="axis"/>
+    <line x1="532" y1="138" x2="742" y2="138" stroke="#f97316" stroke-width="2.2" stroke-dasharray="8 6"/>
+    <line x1="402" y1="40" x2="402" y2="188" class="aux"/>
+    <line x1="532" y1="40" x2="532" y2="188" class="aux"/>
+    <rect x="62" y="116" width="340" height="15" fill="#dcfce7" opacity="0.95"/>
+    <rect x="532" y="116" width="203" height="15" fill="#dcfce7" opacity="0.95"/>
+    <path d="M70,92 C128,87 190,79 246,64 C306,48 356,32 402,22" fill="none" stroke="#2563eb" stroke-width="4.2" stroke-linecap="round"/>
+    <path d="M402,115 C468,133 560,146 735,156" fill="none" stroke="#e11d48" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="532" cy="138" r="7" fill="#fff" stroke="#f97316" stroke-width="3"/>
+    <circle cx="402" cy="22" r="7" fill="#fff" stroke="#2563eb" stroke-width="3"/>
+    <text x="397" y="190" class="small">0</text>
+    <text x="527" y="190" class="small">a</text>
+    <text x="548" y="132" class="small">f(a)</text>
+    <text x="170" y="139" class="tag" fill="#0f766e">x≤0</text>
+    <text x="604" y="139" class="tag" fill="#0f766e">x&gt;a</text>
+  </g>
+</svg>

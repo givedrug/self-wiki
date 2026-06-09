@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#334155"/>
+    </marker>
+    <filter id="shadow" x="-10%" y="-15%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.08"/>
+    </filter>
+    <style>
+      .bg { fill: #f8fafc; }
+      .panel { fill: #ffffff; stroke: #dbe3ee; stroke-width: 1; filter: url(#shadow); }
+      .title { font: 700 24px "PingFang SC", "Microsoft YaHei", Arial, sans-serif; fill: #0f172a; }
+      .sub { font: 15px "PingFang SC", "Microsoft YaHei", Arial, sans-serif; fill: #64748b; }
+      .axis { stroke: #334155; stroke-width: 2.2; marker-end: url(#arrow); }
+      .grid { stroke: #e5eaf2; stroke-width: 1; }
+      .aux { stroke: #94a3b8; stroke-width: 1.5; stroke-dasharray: 6 6; }
+      .tick { font: 14px "PingFang SC", "Microsoft YaHei", Arial, sans-serif; fill: #475569; }
+      .label { font: 700 15px "PingFang SC", "Microsoft YaHei", Arial, sans-serif; fill: #0f172a; }
+      .small { font: 13px "PingFang SC", "Microsoft YaHei", Arial, sans-serif; fill: #64748b; }
+    </style>
+  </defs>
+  <rect width="960" height="560" class="bg"/>
+  <rect x="38" y="28" width="884" height="500" rx="8" class="panel"/>
+  <text x="68" y="70" class="title">第（1）问：函数图像与水平辅助线</text>
+  <text x="68" y="99" class="sub">水平线 y=1/2 与两段函数交于 t=-1 和 t=1/2，中间部分正好满足 f(t)&gt;1/2。</text>
+
+  <g transform="translate(92,130)">
+    <rect x="0" y="0" width="776" height="330" rx="8" fill="#fbfdff" stroke="#e2e8f0"/>
+    <g opacity="0.85">
+      <line x1="80" y1="45" x2="80" y2="285" class="grid"/>
+      <line x1="225" y1="45" x2="225" y2="285" class="grid"/>
+      <line x1="370" y1="45" x2="370" y2="285" class="grid"/>
+      <line x1="515" y1="45" x2="515" y2="285" class="grid"/>
+      <line x1="660" y1="45" x2="660" y2="285" class="grid"/>
+      <line x1="50" y1="80" x2="720" y2="80" class="grid"/>
+      <line x1="50" y1="145" x2="720" y2="145" class="grid"/>
+      <line x1="50" y1="210" x2="720" y2="210" class="grid"/>
+      <line x1="50" y1="275" x2="720" y2="275" class="grid"/>
+    </g>
+    <line x1="50" y1="230" x2="724" y2="230" class="axis"/>
+    <line x1="380" y1="285" x2="380" y2="34" class="axis"/>
+    <text x="710" y="253" class="label">t</text>
+    <text x="392" y="52" class="label">f(t)</text>
+
+    <line x1="50" y1="155" x2="720" y2="155" stroke="#f97316" stroke-width="2.4" stroke-dasharray="8 6"/>
+    <text x="622" y="143" class="label" fill="#f97316">y=1/2</text>
+    <rect x="215" y="231" width="326" height="18" fill="#dbeafe" opacity="0.9"/>
+
+    <line x1="215" y1="40" x2="215" y2="286" class="aux"/>
+    <line x1="380" y1="40" x2="380" y2="286" class="aux"/>
+    <line x1="541" y1="40" x2="541" y2="286" class="aux"/>
+
+    <path d="M55,192 C105,188 160,176 215,155 C275,132 326,95 380,60" fill="none" stroke="#2563eb" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M380,60 L720,250" fill="none" stroke="#0f766e" stroke-width="4.5" stroke-linecap="round"/>
+
+    <circle cx="215" cy="155" r="7" fill="#fff" stroke="#f97316" stroke-width="3"/>
+    <circle cx="541" cy="155" r="7" fill="#fff" stroke="#f97316" stroke-width="3"/>
+    <circle cx="380" cy="60" r="7" fill="#fff" stroke="#0f766e" stroke-width="3"/>
+
+    <text x="204" y="310" class="tick">-1</text>
+    <text x="375" y="310" class="tick">0</text>
+    <text x="528" y="310" class="tick">1/2</text>
+    <text x="238" y="219" class="label" fill="#2563eb">f(t)&gt;1/2</text>
+    <text x="94" y="118" class="small" fill="#2563eb">f(t)=2^t</text>
+    <text x="572" y="96" class="small" fill="#0f766e">f(t)=1-t</text>
+  </g>
+</svg>
