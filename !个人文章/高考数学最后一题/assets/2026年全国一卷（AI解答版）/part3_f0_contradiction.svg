@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="500" viewBox="0 0 960 500">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#334155"/>
+    </marker>
+    <filter id="shadow" x="-10%" y="-15%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.08"/>
+    </filter>
+    <style>
+      .bg { fill: #f8fafc; }
+      .panel { fill: #ffffff; stroke: #dbe3ee; stroke-width: 1; filter: url(#shadow); }
+      .chart { fill: #fbfdff; stroke: #e2e8f0; }
+      .title { font: 700 24px "PingFang SC", "Microsoft YaHei", Arial, sans-serif; fill: #0f172a; }
+      .sub { font: 15px "PingFang SC", "Microsoft YaHei", Arial, sans-serif; fill: #64748b; }
+      .axis { stroke: #334155; stroke-width: 2.1; marker-end: url(#arrow); }
+      .grid { stroke: #e5eaf2; stroke-width: 1; }
+      .aux { stroke: #94a3b8; stroke-width: 1.4; stroke-dasharray: 6 6; }
+      .label { font: 700 15px "PingFang SC", "Microsoft YaHei", Arial, sans-serif; fill: #0f172a; }
+      .small { font: 13px "PingFang SC", "Microsoft YaHei", Arial, sans-serif; fill: #64748b; }
+      .callout { fill: #fff7ed; stroke: #fed7aa; }
+    </style>
+  </defs>
+  <rect width="960" height="500" class="bg"/>
+  <rect x="38" y="28" width="884" height="436" rx="8" class="panel"/>
+  <text x="68" y="70" class="title">第（3）问：反设 f(0)&lt;1 的辅助点</text>
+  <text x="68" y="99" class="sub">在负半轴上选 a，使 f(a)&gt;f(0)。同一个增量 d 会导致条件①与条件②冲突。</text>
+
+  <g transform="translate(86,128)">
+    <rect x="0" y="0" width="788" height="280" rx="8" class="chart"/>
+    <line x1="56" y1="218" x2="736" y2="218" class="axis"/>
+    <line x1="430" y1="248" x2="430" y2="34" class="axis"/>
+    <line x1="56" y1="118" x2="736" y2="118" stroke="#f97316" stroke-width="2.2" stroke-dasharray="8 6"/>
+    <text x="622" y="106" class="label" fill="#f97316">y=f(0)</text>
+
+    <line x1="250" y1="42" x2="250" y2="248" class="aux"/>
+    <line x1="340" y1="42" x2="340" y2="248" class="aux"/>
+    <line x1="430" y1="42" x2="430" y2="248" class="aux"/>
+    <line x1="520" y1="42" x2="520" y2="248" class="aux"/>
+    <path d="M62,180 C122,174 186,160 250,137 C292,121 320,105 340,91 C376,68 405,54 430,46" fill="none" stroke="#2563eb" stroke-width="4.3" stroke-linecap="round"/>
+
+    <circle cx="250" cy="137" r="7" fill="#fff" stroke="#2563eb" stroke-width="3"/>
+    <circle cx="340" cy="91" r="7" fill="#fff" stroke="#2563eb" stroke-width="3"/>
+    <circle cx="430" cy="118" r="7" fill="#fff" stroke="#f97316" stroke-width="3"/>
+    <circle cx="520" cy="148" r="7" fill="#fff" stroke="#e11d48" stroke-width="3"/>
+
+    <path d="M250,218 C272,194 318,194 340,218" fill="none" stroke="#0f766e" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M430,218 C452,194 498,194 520,218" fill="none" stroke="#0f766e" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="282" y="190" class="label" fill="#0f766e">+d</text>
+    <text x="462" y="190" class="label" fill="#0f766e">+d</text>
+
+    <text x="246" y="244" class="small">a</text>
+    <text x="324" y="244" class="small">a/2</text>
+    <text x="426" y="244" class="small">0</text>
+    <text x="516" y="244" class="small">d</text>
+    <text x="198" y="132" class="small">f(a)</text>
+    <text x="350" y="86" class="small">f(a/2)&gt;f(a)</text>
+    <text x="530" y="154" class="small">0&lt;d&lt;1</text>
+  </g>
+
+  <rect x="86" y="424" width="788" height="28" rx="8" class="callout"/>
+  <text x="108" y="444" class="label" fill="#9a3412">矛盾：d∈D(a) ⇒ d∈D(0)，但条件②给出 f(d)&lt;f(0)。</text>
+</svg>
